@@ -1,0 +1,39 @@
+{
+  "frameworks": [
+    {
+      "id": 1,
+      "name": "React.",
+      "url": "https://reactjs.org/docs/getting-started.html"
+    },
+    {
+      "id": 2,
+      "name": "Angular",
+      "url": "https://angular.io/docs"
+    },
+    {
+      "id": 3,
+      "name": "Vue.js",
+      "url": "https://vuejs.org/guide/introduction.html"
+    },
+    {
+      "id": 4,
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com/"
+    },
+    {
+      "name": "Svelte",
+      "url": "https://svelte.dev/",
+      "id": "4b0f1653-74be-4617-98de-d98e1a6c4e85"
+    },
+    {
+      "name": "Laravel",
+      "url": "https://laravel.com/",
+      "id": "6bb468b3-fa75-410c-b193-36c81a74fcd8"
+    },
+    {
+      "name": "Codeigniter",
+      "url": "https://codeigniter.com/",
+      "id": "03df8cdd-40c3-4722-82bf-25d6cd15dbf9"
+    }
+  ]
+}

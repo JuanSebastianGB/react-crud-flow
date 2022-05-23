@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
 const initialForm = {
-  name: "",
-  url: "",
+  name: '',
+  url: '',
   id: null,
 };
 
@@ -27,7 +27,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!form.name || !form.url) {
-      alert("Data required");
+      alert('Data required');
       return;
     }
 
@@ -46,7 +46,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit }) => {
   };
   return (
     <div>
-      {dataToEdit ? "Edit" : "Insert"}
+      {dataToEdit ? 'Edit' : 'Insert'}
       <form onSubmit={handleSubmit}>
         <input
           type="text"

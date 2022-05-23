@@ -1,23 +1,23 @@
-import React, { Fragment, useState } from "react";
-import CrudForm from "./CrudForm";
-import CrudTable from "./CrudTable";
-import { v4 as uuidv4 } from "uuid";
+import React, { Fragment, useState } from 'react';
+import CrudForm from './CrudForm';
+import CrudTable from './CrudTable';
+import { v4 as uuidv4 } from 'uuid';
 
 const techs = [
   {
     id: 1,
-    name: "React",
-    url: "https://reactjs.org/docs/getting-started.html",
+    name: 'React',
+    url: 'https://reactjs.org/docs/getting-started.html',
   },
   {
     id: 2,
-    name: "Angular",
-    url: "https://angular.io/docs",
+    name: 'Angular',
+    url: 'https://angular.io/docs',
   },
   {
     id: 3,
-    name: "Vue.js",
-    url: "https://vuejs.org/guide/introduction.html",
+    name: 'Vue.js',
+    url: 'https://vuejs.org/guide/introduction.html',
   },
 ];
 
@@ -47,6 +47,7 @@ const CrudApp = () => {
   return (
     <Fragment>
       <article className="grid-1-2">
+        <h3>CRUD APP</h3>
         <CrudForm
           createData={createData}
           updateData={updateData}
